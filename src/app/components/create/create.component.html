@@ -1,0 +1,23 @@
+<div class="Page">
+    <div class="Card">
+      <div class="Title">Creating Consumer</div>
+      <div class="InputConsumerField">
+        <label>Email</label><br/>
+        <input placeholder="Email" class="InputField" [(ngModel)]="email"/>
+      </div>
+  
+      <div class="InputConsumerField">
+          <label>Username</label><br/>
+          <input placeholder="User Name" class="InputField" [(ngModel)]="userName"/>
+      </div>
+  
+      <div class="InputConsumerField">
+          <label>Phone #</label><br/>
+          <input placeholder="Phone Number" class="InputField" [(ngModel)]="phoneNumber"/>
+      </div>
+      <button (click)="saveConsumer()" class="Button SaveButton">Save</button>
+    </div>
+  
+  
+  </div>
+  
